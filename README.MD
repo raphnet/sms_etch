@@ -17,3 +17,5 @@ I had been thinking of doing a drawing demo using two paddle controllers ever si
 I got a bit carried away and added an intro with music, scalable text using a simple vector font, moving knobs the while writing/drawing stuff...
 Tested on real hardware using a Japanese SMS and a US Megadrive.
 
+Disclaimer: The code quality is low, this was just an experiment. If something does not seem to make sense well... it probably does not. Don't look too hard for a reason why I did this or that.
+
