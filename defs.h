@@ -1,0 +1,36 @@
+#ifndef _defs_h__
+#define _defs_h__
+
+#define DRAWAREA_TILES_W	24
+#define DRAWAREA_TILES_H	15
+
+#define DRAWAREA_X			4
+#define DRAWAREA_Y			4
+#define DRAWAREA_FIRST_TID	72
+
+#define DRAWAREA_BGCOLOR	0
+#define DRAWAREA_FGCOLOR	15
+
+#define DRAWAREA_TILES	(DRAWAREA_TILES_W * DRAWAREA_TILES_H)
+
+#define SPRITETILES_START	64
+
+// sprites for covering round drawarea corners
+#define UL_MASK_SPRITE_ID	(SPRITETILES_START+1)
+#define UR_MASK_SPRITE_ID	(SPRITETILES_START+2)
+#define LL_MASK_SPRITE_ID	(SPRITETILES_START+3)
+#define LR_MASK_SPRITE_ID	(SPRITETILES_START+4)
+
+#define KNOBPOINT_SPRITE_ID	(SPRITETILES_START+5)
+
+#define POINTER_TID		(SPRITETILES_START+0)
+
+#define BGBLANK_TID		71
+
+#define LEFT_KNOB_X			23
+#define LEFT_KNOB_Y			167
+
+#define RIGHT_KNOB_X		231
+#define RIGHT_KNOB_Y		167
+
+#endif
